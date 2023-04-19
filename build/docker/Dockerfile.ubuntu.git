@@ -5,7 +5,7 @@
 # now you have a bash inside a docker container and can for instance run
 # $ cd /opt/sumo; bin/sumo -c docs/examples/sumo/busses/test.sumocfg
 
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 ENV SUMO_HOME=/opt/sumo
 ENV PATH=/opt/sumo/bin:$PATH
